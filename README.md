@@ -23,9 +23,15 @@ Sure, just grab an Arduino and an [8x8 LED matrix using the MAX7219](https://www
     ``` 
 1. Connect your Arduino to your computer
 1. Upload the code in `./web_serial_led_matrix.ino` to your Arduino
-1. Enable Chrome's **Experimental Web Platform Features** by visiting [chrome://flags/#enable-experimental-web-platform-features](chrome://flags/#enable-experimental-web-platform-features)
+1. Enable Your browser's **Experimental Web Platform Features** by visiting:
+    > [chrome://flags/#enable-experimental-web-platform-features](chrome://flags/#enable-experimental-web-platform-features)
+    >
+    > [opera://flags/#enable-experimental-web-platform-features](opera://flags/#enable-experimental-web-platform-features)
+    >
+    > [edge://flags/#enable-experimental-web-platform-features](edge://flags/#enable-experimental-web-platform-features)
+    >
     > You can skip this part if you're using the hosted version. It includes an [Origin Trial Token](https://www.chromium.org/blink/origin-trials)
-1. Run the demo app locally and open it in your browser (Chrome 80+)
+1. Run the demo app locally and open it in your browser (Chromium based 80+)
 1. Use the "Connect to serial port button" of the web app to connect to the right port
 1. Go crazy drawing using the canvas
 1. Be amazed by the powers of the web platform
