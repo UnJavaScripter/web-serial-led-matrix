@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Serial</title>
+  <meta http-equiv="origin-trial" content="AmrmfeJnyzm7XmD64eIeAuCdH0/Flc/xzZb0e6S5xShMWCrIlB2oRWiV+q4KEDYMFT/Lp2u6UFK+zkGdYlwdUAEAAABreyJvcmlnaW4iOiJodHRwczovL3VuamF2YXNjcmlwdGVyLXdlYi1zZXJpYWwtZXhhbXBsZS5nbGl0Y2gubWU6NDQzIiwiZmVhdHVyZSI6IlNlcmlhbCIsImV4cGlyeSI6MTU5MDA3NzQxM30=">
+  <style>
+    body {
+      margin: 0;
+      background-color: #8b8b9e;
+    }
+    .canvas-container {
+      display: flex;
+      justify-content: center;
+    }
+    canvas {
+      touch-action: none;
+    }
+    .controls-container {
+      display: flex;
+      justify-content: center;
+    }
+    button {
+      margin: 0.5rem 0.3rem;
+      padding: 0.5rem 0.7rem;
+      background-color: #262635;
+      color: #eef;
+      border: none;
+      font-size: 1rem;
+    }
+    .repo-link {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 0 1rem 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="connect-to-serial-btn">Connect to serial port</button>
+  <button id="clear-btn">Clear</button>
+  <div class="canvas-container">
+    <canvas id="canvas"></canvas>
+  </div>
+  
+  <div class="repo-link">
+    <a href="https://github.com/UnJavaScripter/web-serial-example">GitHub Repo</a>
+  </div>
+
+  <script src="./dist/app.js" type="module"></script>
+</body>
+</html>
