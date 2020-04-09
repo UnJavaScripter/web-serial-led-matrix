@@ -16,7 +16,10 @@ class SerialController {
             }
         }
         else {
-            console.error('Web serial doesn\'t seem to be enabled in your browser. Try enabling it (if Chrome, visit chrome://flags/#enable-experimental-web-platform-features).');
+            console.error('Web serial doesn\'t seem to be enabled in your browser. Try enabling it by visiting:');
+            console.error('chrome://flags/#enable-experimental-web-platform-features');
+            console.error('opera://flags/#enable-experimental-web-platform-features');
+            console.error('edge://flags/#enable-experimental-web-platform-features');
         }
     }
     async write(data) {
